@@ -1,5 +1,5 @@
 # FACUPD
-MATLAB test code for factorization update of elliptic problem.
+MATLAB test code for direct factorization update of elliptic partial differential equations.
 
 The folder FEM/ consists of functions to generate finite element matrices. Most of the scripts come from the nodal-dg package (https://github.com/tcew/nodal-dg). See the book Nodal Disontinuous Galerkin Methods by Jan S. Hesthaven and Tim Warburton for reference.
 
