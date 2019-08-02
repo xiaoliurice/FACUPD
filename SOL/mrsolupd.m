@@ -69,7 +69,6 @@ flp1 = flp1 + 2/3*ne^3;
 
 % interior solution
 [u2,g,counts] = mrsolint(size(u1),r,rid,nlvl,lvb,bvps,bghs, FIE,SE,FI2,SI2,sz2, Mb,pd);
-fprintf('  Fac flops %.2e, storage %.2e; interior solution %.2e\n',flp1,stg1,counts.nflops);
 flp1 = flp1 + counts.nflops;
 FI2 = [];
 SI2 = [];
